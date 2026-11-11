@@ -8,7 +8,7 @@
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
     "Robert Kieffer <robert@broofa.com> (http://github.com/broofa)"
   ],
-  "license": "ISC", 
+  "license": "ISC",
   "keywords": [
     "mime",
     "db",
@@ -20,7 +20,6 @@
   ],
   "repository": "jshttp/mime-db",
   "devDependencies": {
-    "express": "5.1.0",
     "csv-parse": "4.16.3",
     "eslint": "8.32.0",
     "eslint-config-standard": "15.0.1",
@@ -29,10 +28,12 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-standard": "4.1.0",
+    "express": "5.1.0",
     "media-typer": "1.1.0",
     "mocha": "10.2.0",
     "nyc": "15.1.0",
     "stream-to-array": "2.3.0",
+    "supertest": "^7.3.2",
     "undici": "7.1.0"
   },
   "files": [
@@ -45,8 +46,8 @@
   "engines": {
     "node": ">= 0.6"
   },
-"scripts": {
-  "start": "node src/server.js",
-  "test": "node --test"
-}
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
 }
